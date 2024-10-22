@@ -1,4 +1,4 @@
-package com.youngin;
+package my.training;
 
 public class Main {
 

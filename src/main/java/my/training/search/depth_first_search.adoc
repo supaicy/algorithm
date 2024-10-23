@@ -1,0 +1,29 @@
+= 깊이 우선 탐색 (Depth-First Search)
+:toc:
+:toc-title: 목차
+:sectnums:
+
+== 알고리즘 설명
+깊이 우선 탐색(DFS)은 그래프 탐색 알고리즘으로, 가능한 한 깊숙이 들어가며 탐색하는 방식입니다. +
+각 경로를 끝까지 탐색한 후, 다른 경로로 넘어가는 방식입니다. +
+**경로 탐색에 유리합니다.** +
+**재귀 호출을 사용하기에 메모리 사용이 높아질 위험이 있습니다.** +
+스택 또는 재귀를 사용하여 탐색할 수 있습니다.
+
+== 코드 설명
+
+[source,java,linenums]
+----
+include::DepthFirstSearch.java[lines=5..34]
+----
+
+이 코드에서 `dfsRecursive` 메소드는 재귀적으로 호출되며, 방문하지 않은 인접 노드를 탐색합니다. +
+각 노드는 방문할 때 출력됩니다.
+
+== 실행 결과
+DFS 탐색이 노드를 깊이 탐색하는 과정을 보여줍니다.
+
+[source,java,linenums]
+----
+include::DepthFirstSearch.java[lines=36..45]
+----

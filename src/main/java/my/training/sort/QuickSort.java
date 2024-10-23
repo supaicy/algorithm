@@ -1,4 +1,4 @@
-package my.training.searchsort;
+package my.training.sort;
 
 public class QuickSort {
     // 퀵 정렬 메소드

@@ -1,4 +1,4 @@
-package my.training.searchsort;
+package my.training.search;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
